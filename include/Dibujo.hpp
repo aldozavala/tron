@@ -1,8 +1,4 @@
-#include <fstream>
-#include <string>
-#include <ftxui/dom/elements.hpp>
-using namespace std;
-using namespace ftxui;
+
 class Dibujo
 {
 private:
