@@ -15,7 +15,7 @@ using namespace ftxui;
         int fotograma=0;
         while(true)
         {
-        this_thread::sleep_for(0.1s);
+       this_thread::sleep_for(0.1s);
         fotograma ++;
         Element personaje = spinner (21,fotograma) | bold | color(Color::Red) | bgcolor(Color::White);
        // Element eMoto = moto| bold | color(Color::Orange1) | bgcolor(Color::White);;
